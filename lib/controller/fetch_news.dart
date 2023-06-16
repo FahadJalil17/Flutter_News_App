@@ -1,4 +1,4 @@
-// https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=0c427d48e2cf4f62830aa4872dd73bd4
+// https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey="ApiKey "
 
 import 'dart:convert';
 import 'dart:math';
