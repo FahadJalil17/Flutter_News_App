@@ -60,7 +60,7 @@ class FetchNews{
     // print(sourceID);
 
 
-    Response response = await get(Uri.parse("https://newsapi.org/v2/top-headlines?sources=$sourceID&apiKey=0c427d48e2cf4f62830aa4872dd73bd4"));
+    Response response = await get(Uri.parse("https://newsapi.org/v2/top-headlines?sources=$sourceID&apiKey=Put your Api Key here you can get it from newsapi.org"));
 
     Map data = jsonDecode(response.body);
 
